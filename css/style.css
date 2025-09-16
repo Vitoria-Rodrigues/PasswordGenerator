@@ -19,3 +19,30 @@ html{
 input:focus{
     outline: none;
 }
+
+/* Card do formulario */
+
+#register-container{
+    max-width: 60rem;
+    min-height: 80dvh;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: 0px 8px 40px 10px rgba(0,0,0,0.15);
+}
+
+#register-banner{
+    background-color: #33060fad;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 2vh 0 0 2vh;
+}
+
+#register-banner > h1{
+    font-size: 3.5rem;
+    color: #fdfdfd;
+    margin-bottom: 1.5rem;
+    word-spacing: 50rem;
+}
