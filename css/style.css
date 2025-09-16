@@ -1,6 +1,21 @@
 /* Global */
 *{
-    margin: 0;
+    font-family: "Montserrat", "sans-serif";
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    color: #0f0f0f;
+}
+
+html, body {
+    height: auto;
+    min-height: 100dvh;
+}
+
+html{
+    background: linear-gradient(0deg,rgba(125, 57, 71, 1) 0%, rgba(210, 167, 175, 1) 85%);
+}
+
+input:focus{
+    outline: none;
 }
