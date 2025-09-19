@@ -86,3 +86,13 @@ input:focus{
     border-bottom: 1px solid #aaa;
     padding: 0.6rem 0;
 }
+
+#generate-password{
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#generate-password:hover{
+    color: #0099ff;
+}
