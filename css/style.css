@@ -96,3 +96,38 @@ input:focus{
 #generate-password:hover{
     color: #0099ff;
 }
+
+#register-form #generated-password{
+    border: 1px solid #0099ff;
+    border-radius: 0.8vh;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    color: #0f0f0f;
+    text-align: center;
+    margin-bottom: 1rem;
+    display: none;
+}
+
+#register-form #generated-password p{
+    color: #81d340;
+    margin-bottom: 0.5rem;
+}
+
+#register-form input[type="submit"]{
+    background-color: #81d340;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+    border: none;
+    border-radius: 4vh;
+    padding: 1rem 1.4rem;
+    max-width: 9rem;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: .4s;
+}
+
+#register-form input[type="submit"]:hover{
+    opacity: 1;
+}
