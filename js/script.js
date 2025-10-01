@@ -48,3 +48,8 @@ const generatePassword = (getLetterLowerCase, getLetterUpperCase, getNumber, get
     generatedPasswordElement.querySelector("h4").innerText = password;
 
 };
+
+//Eventos
+generatePasswordButton.addEventListener("click", () => {
+    generatePassword(getLetterLowerCase, getLetterUpperCase, getNumber, getSymbol);
+});
