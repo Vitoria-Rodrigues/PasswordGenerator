@@ -74,3 +74,7 @@ const generatePassword = (getLetterLowerCase, getLetterUpperCase, getNumber, get
 generatePasswordButton.addEventListener("click", () => {
     generatePassword(getLetterLowerCase, getLetterUpperCase, getNumber, getSymbol);
 });
+
+openCloseGeneratorButton.addEventListener("click", () => {
+    generatePasswordContainer.classList.toggle("hide");
+});
